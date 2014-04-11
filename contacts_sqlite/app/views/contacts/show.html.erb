@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @contact.name %>
+</p>
+
+<ol>
+  <% @addresses.each do |address| %>
+  <li>
+    Street: <%= address.street %>
+   </li>
+   <% end %> 
+</ol>
+
+<%= link_to 'Edit', edit_contact_path(@contact) %> |
+<%= link_to 'Back', contacts_path %>
