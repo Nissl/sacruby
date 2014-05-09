@@ -36,5 +36,5 @@ rails g model phone number:string contact:references
 indexing: very important!
 
 HW: generate a brand new Rails app - recreate this model
-For me: screw around with MySQL, get it working. Why not work??
+For me: screw around with MySQL, get it working. Why not work?? - oops, needed to install via brew and then start a server.
 Get basic model in place, bring it with you. Oops, sort of did this already
